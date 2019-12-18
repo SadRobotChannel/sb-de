@@ -25,6 +25,12 @@ post_class: post-template
 			{% if page.image %}<img class="featured-image img-fluid" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">{% endif %}
 			<!-- End Featured Image -->
 
+			<!-- Post Content -->
+			<div class="article-post">
+				{{content}}
+                <div class="clearfix"></div>
+			</div>
+			
 			<!-- Prev/Next -->
 			<div class="row PageNavigation mt-4 prevnextlinks">
 				{% if page.previous.url %}
@@ -39,12 +45,6 @@ post_class: post-template
 				{% endif %}
 			</div>
 			<!-- End Prev/Next -->
-
-			<!-- Post Content -->
-			<div class="article-post">
-				{{content}}
-                <div class="clearfix"></div>
-			</div>
 
 
             <!-- Post Date -->
