@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta property="og:url" content="{{ page.URL }}" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="{{ page.title }}" />
+<meta property="og:description" content="{{ page.desc }}"/>
+<meta property="og:image" content="{{ page.img }}" />
+<meta property="og:image:alt" content="{{ page.alt }}" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="{{ page.img }}" />
+    <meta name="twitter:image:alt" content="{{ page.alt }}" />
+    <meta name="twitter:description" content="{{ page.desc }}" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.png">
+<title>{{ page.title }} | {{site.name}}</title>
+{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i" rel="stylesheet">
+<link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
+
+{% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
+<body class="{{ layout }}">
+
+<!-- Begin Menu Navigation
+================================================== -->
+<header class="navbar navbar-toggleable-md navbar-light bg-white fixed-top mediumnavigation">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsWow" aria-controls="navbarsWow" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="container">
+
+      <!-- Begin Logo -->
+      <a class="navbar-brand" href="{{ site.baseurl }}/">
+      <img src="https://www.staleblock.com/assets/images/logo.png" alt="{{ site.name }}">
+      </a>
+      <!-- End Logo -->
+
+      <!-- Begin Menu -->
+      <div class="collapse navbar-collapse" id="navbarsWow">
+
+          <!-- Begin Menu -->
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://ar.staleblock.com/">AR</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://bn.staleblock.com/">BN</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://de.staleblock.com/">DE</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://es.staleblock.com/">ES</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://fr.staleblock.com/">FR</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://hi.staleblock.com/">HI</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://id.staleblock.com/">ID</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://ms.staleblock.com/">MS</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://pt.staleblock.com/">PT</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://ru.staleblock.com/">RU</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://ur.staleblock.com/">UR</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://zh.staleblock.com/">ZH</a>
+            </li>
+
+          </ul>
+          <!-- End Menu -->
+        </div>
+    </div>
+
+</header>
+
+<!-- End Menu Navigation
+================================================== -->
+
+
+<div class="site-content">
+
+    <div class="container">
+
+    <!-- Site Title
+    ================================================== -->
+
+    <div class="mainheading" style="display:none;">
+        <h1 class="sitetitle">{{ site.name }}</h1>
+        <p class="lead">
+             {{ site.description }}
+        </p>
+    </div>
+
+    <!-- Content
+    ================================================== -->
+    <div class="main-content">
+        {{ content }}
+    </div>
+
+    </div><!-- /.container -->
+
+    <!-- Begin Footer
+    ================================================== -->
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="row">
+
+              <div class="col-sm-3">
+                <div class="footer-widget">
+                  <a href="http://bit.ly/www-bitsgap" target="_blank""><img src="http://www.staleblock.com/assets/images/bitsgap-02.png" alt="Bitsgap - Cryptocurrency Trading Bot"/></a>
+                  <p> </p>
+                  <a href="http://bit.ly/www-bitsgap" target="_blank""><img src="http://www.staleblock.com/assets/images/bitsgap-03.png" alt="Start with a 14-day free trial. No credit card required."/></a>
+                </div>
+              </div>
+
+              <div class="col-sm-3">
+              <div class="footer-widget">
+              <h5 class="title"><a href="http://bit.ly/www-bitsgap" target="_blank">Bitsgap - Cryptocurrency Trading Bot</a></h5>
+              An automated solution for Cryptocurrency Trading, Portfolio Management and Arbitrage. Start with a 14-day free trial, no credit card required,
+              and connect your existing exchange account (Binance, Coinbase etc) to Bitsgap Trading Bot.
+              <p> </p>
+              Explore one of many existing strategies. <a href="http://bit.ly/www-bitsgap" target="_blank">Read on.</a>
+              </div>
+              </div>
+
+                <div class="col-sm-3">
+                <div class="footer-widget">
+                  <a href="http://bit.ly/www-binance" target="_blank"><img src="http://www.staleblock.com/assets/images/binance-01.png" alt="Binance.com - World's Leading Cryptocurrency Exchange"/></a>
+                  <p> </p>
+                  Binance is a global cryptocurrency exchange that provides a platform for trading more than 150 cryptocurrencies.
+                  </div>
+                </div>
+
+                <div class="col-sm-3">
+                <div class="footer-widget">
+                <h5 class="title"><a href="http://bit.ly/www-binance" target="_blank">Binance.com - World's Leading Cryptocurrency Exchange</a></h5>
+                Binance is considered to be one of the a safest platforms for cryptocurrency traders due to its built in security and low trading fees.
+                To get started you can buy crypto with s credit card and start trading in minutes.
+                <p> </p>
+                Trade manually or use an API to connect a trading bot such as <a href="http://bit.ly/www-bitsgap" target="_blank">Bitsgap</a>. <a href="http://bit.ly/www-binance" target="_blank">Start trading.</a>
+                </div>
+                </div>
+
+            </div>
+
+            <div class="copyright">
+                <p class="pull-left">
+                  Copyright © 2019-2020 StaleBlock.com. Although this site uses some cookies to enhance your navigation experience, we DO NOT store or share information about your use of this site.
+                </p>
+                <p class="pull-right">
+
+                </p>
+                <div class="clearfix">
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+</div> <!-- /.site-content>
+
+<!-- JavaScript
+================================================== -->
+
+<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script>
+<script type='text/javascript' src='{{ site.baseurl }}/assets/js/masonry.pkgd.min.js'></script>
+<script src="{{ site.baseurl }}/assets/js/theme.js"></script>
+
+</body>
+</html>
