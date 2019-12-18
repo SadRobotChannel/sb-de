@@ -33,6 +33,3 @@ Still, the following faucets sites remain loyal to their members and continue di
 - <a href="http://bit.ly/www-rollercoin" target="_blank">RollerCoin</a>
 
 What is your experience with crypto faucets? Have you tried any of them? Do you have a favorite site?
-
-<div id="commento"></div>
-<script src="https://cdn.commento.io/js/commento.js"></script>
