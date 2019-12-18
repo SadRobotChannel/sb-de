@@ -1,5 +1,5 @@
 ---
-layout: post-right-sidebar-talk
+layout: post-right-sidebar-index
 title: Best Cryptocurrency Faucets
 comments: false
 img: https://www.staleblock.com/assets/images/all-faucets.com-thumb.png
